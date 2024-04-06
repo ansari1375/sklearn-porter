@@ -851,7 +851,7 @@ class Estimator:
         """
 
         # scikit-learn version < 0.18.0
-        from sklearn.tree.tree import DecisionTreeClassifier
+        from sklearn.tree import DecisionTreeClassifier
         from sklearn.ensemble import AdaBoostClassifier
         from sklearn.ensemble import RandomForestClassifier
         from sklearn.ensemble import ExtraTreesClassifier
