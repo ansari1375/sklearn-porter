@@ -424,7 +424,7 @@ class Estimator:
         elif name == 'SVC':
             from sklearn.svm.classes import SVC as SVCClass
 
-            if isinstance(estimator, SVCClass):
+            if 1:
                 from sklearn_porter.estimator.SVC import SVC
 
                 return SVC(est)
