@@ -422,7 +422,7 @@ class Estimator:
 
                 return LinearSVC(est)
         elif name == 'SVC':
-            from sklearn.svm.classes import SVC as SVCClass
+            #from sklearn.svm.classes import SVC as SVCClass
 
             if 1:
                 from sklearn_porter.estimator.SVC import SVC
